@@ -7,7 +7,7 @@ in root directory
 git clone --recursive https://github.com/dmlc/xgboost
 ```
 
-### Build XGBoost 
+### Compile for multi-threading
 By default, the build process will use the default compilers, cc and c++, which do not support the open mp option used for XGBoost multi-threading. We need to specify how to compile
 
 Change directory to XGBoost
@@ -22,13 +22,13 @@ Open make/config.mk and perform these actions
     Uncomment export CXX = g++
     shift zz to save and exit
 ```
-After lot of trials and errors, I found that I was using gcc7.1.0 
-
-So I need to edit make/config.mk   
+After lot of trials and errors, I found that I was using gcc 7.1.0. So I need to edit make/config.mk   
 ```
     export CC = gcc-7
     export CXX = g++-7
 ```
 Where 7 refers to version of gcc
-
-
+### Build XGBoost
+```
+    cd xgboost; cp make/config.mk ./config.mk; make -j4
+```
