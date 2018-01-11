@@ -20,6 +20,15 @@ Open make/config.mk and perform these actions
     vi make/config.mk
     Uncomment export CC = gcc
     Uncomment export CXX = g++
+    shift zz to save and exit
 ```
+After lot of trials and errors, I found that I was using gcc7.1.0 
+
+So I need to edit make/config.mk   
+```
+    export CC = gcc-7
+    export CXX = g++-7
+```
+Where 7 refers to version of gcc
 
 
