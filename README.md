@@ -1,5 +1,5 @@
 # XGBoost
-## is Machine Learning algorithm
+### XGBoost (eXtreme Gradient Boosting) is an advanced implementation of gradient boosting algorithm. 
 
 ## Installation
 in root directory
