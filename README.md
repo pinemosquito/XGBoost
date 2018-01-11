@@ -12,6 +12,10 @@ git clone --recursive https://github.com/dmlc/xgboost
 ```
 cd xgboost
 Open make/config.mk and uncomment these two lines
+```
+
+### Build XGBoost 
+
 Copy using cp make/config.mk
 vi make/config.mk
 Uncomment export CC = gcc
