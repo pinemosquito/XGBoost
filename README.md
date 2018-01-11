@@ -32,3 +32,9 @@ Where 7 refers to version of gcc
 ```
     cd xgboost; cp make/config.mk ./config.mk; make -j4
 ```
+### Running XGBoost
+Once the build is finished, we can use XGBoost with its command line.  I am using Python, hence I performed this final step.  You may need to enter the admin password to execute it.
+
+```
+    cd python-package; sudo python setup.py install
+```
