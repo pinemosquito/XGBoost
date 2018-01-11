@@ -1,14 +1,11 @@
 # XGBoost
-## Powerful Machine Learning algorithm
+## is Machine Learning algorithm
 
 ## Installation
 in root directory
 ```
 git clone --recursive https://github.com/dmlc/xgboost
 ```
-
-
-
 
 Change directory into xgboost
 cd xgboost
@@ -17,13 +14,6 @@ Copy using cp make/config.mk
 vi make/config.mk
 Uncomment export CC = gcc
 Uncomment export CXX = g++
-Shift zz to save and exit
-cd xgboost; cp make/config.mk ./config.mk; make -j4
-clang: error: unsupported option ‘-fopenmp’
-After lot of trial and error, i found that I am using gcc 7.1.0 so I need to edit make/config.mk to 
-export CC = gcc-7
-export CXX = g++-7
-Where 7 refers to version of gcc
-cd python-package; sudo python setup.py install
 
-```
+
+
