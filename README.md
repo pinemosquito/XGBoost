@@ -1,4 +1,4 @@
-# XGBoost
+# XGBoost on Mac OS
 ### XGBoost (eXtreme Gradient Boosting) is an advanced implementation of gradient boosting algorithm. 
 
 ## Installation
