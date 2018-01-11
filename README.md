@@ -1,11 +1,15 @@
 # XGBoost
+## Powerful Machine Learning algorithm
 
 ## Installation
+in root directory
+```
+git clone --recursive https://github.com/dmlc/xgboost
 ```
 
-https://www.ibm.com/developerworks/community/blogs/jfp/entry/Installing_XGBoost_on_Mac_OSX?lang=en
-In root directory
-git clone --recursive https://github.com/dmlc/xgboost
+
+
+
 Change directory into xgboost
 cd xgboost
 Open make/config.mk and uncomment these two lines
