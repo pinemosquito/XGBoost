@@ -1,0 +1,7 @@
+# XGBoost Guide
+
+## Regularization
+XGBoost is known as 'regularized boosting" - help reduce overfitting
+
+## Parallel Processing
+XGBoost uses multi-thread parallel processing and is blazing fast compared with Gradient Boosting
