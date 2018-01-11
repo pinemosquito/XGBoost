@@ -7,7 +7,9 @@ in root directory
 git clone --recursive https://github.com/dmlc/xgboost
 ```
 
-Change directory into xgboost
+### Change directory into xgboost
+
+```
 cd xgboost
 Open make/config.mk and uncomment these two lines
 Copy using cp make/config.mk
