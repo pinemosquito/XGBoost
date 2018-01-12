@@ -1,6 +1,8 @@
 # XGBoost on Mac OS
-### XGBoost (eXtreme Gradient Boosting) is an advanced implementation of gradient boosting algorithm. 
-I ran into difficulties installing XGBoost until I found this blog by Jean Francois Puget 
+### XGBoost (eXtreme Gradient Boosting) is an advanced implementation of gradient boosting trees. 
+It is a machine learning algorithm that is very successful at tackling Kaggle's competition.
+
+I was not able to install XGBoost on my Mac until I came across Jean Francois Puget's blog by chance.
 
 
 ## Installation
@@ -10,7 +12,7 @@ git clone --recursive https://github.com/dmlc/xgboost
 ```
 
 ### Compile for multi-threading
-By default, Mac will use cc and cc++ compilers which do not support open mp option used for XGBoost multi-threading. We need to specify how to compile
+By default, Mac OS use cc/cc++ compilers, which do not support open MP option as required by XGBoost multi-threading. We need to specify how to compile
 
 Change directory to XGBoost
 ```
