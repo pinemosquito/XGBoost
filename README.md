@@ -16,11 +16,11 @@ By default, Mac OS use cc/cc++ compilers, which do not support open MP option as
 
 Change directory to XGBoost
 ```
-    cd xgboost
+cd xgboost
 ```
 First copy this file so that any local changes will be ignored by git
 ```
- cp make/config.mk
+cp make/config.mk
 ```
 
 Open make/config.mk and modify
