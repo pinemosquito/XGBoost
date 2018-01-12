@@ -18,14 +18,19 @@ Change directory to XGBoost
 ```
     cd xgboost
 ```
-Open make/config.mk and perform these actions
+First copy this file so that any local changes will be ignored by git
+```
+ cp make/config.mk
+```
+
+Open make/config.mk and modify
 ```   
-    cp make/config.mk
     vi make/config.mk
     Uncomment export CC = gcc
     Uncomment export CXX = g++
-    shift zz to save and exit
 ```
+shift zz to save and exit
+
 After lot of trials and errors, I found that I was using gcc 7.1.0. So I need to edit make/config.mk   
 ```
     export CC = gcc-7
