@@ -6,10 +6,11 @@ I was not able to install XGBoost on my Mac until I came across Jean Francois Pu
 
 
 ## Installation
-in root directory
+go to root directory, type git clone command
 ```
 git clone --recursive https://github.com/dmlc/xgboost
 ```
+This downloads XGBoost code into xgboost directory
 
 ### Compile for multi-threading
 By default, Mac OS use cc/cc++ compilers, which do not support open MP option as required by XGBoost multi-threading. We need to specify how to compile
